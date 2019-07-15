@@ -1,0 +1,10 @@
+router-link {
+    content: url("../assets/img/assets-components/arrowRight.png");
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+router-link:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.logo {
+    background-image: url("../assets/img/assets-components/logoBig.png");
+    top: 2em;
+    left: 3em;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo:hover {
+    cursor: pointer;
+}

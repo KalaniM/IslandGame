@@ -1,0 +1,39 @@
+main {
+    background-image: url("../assets/img/backgrounds/paperBg.png");
+    margin: auto auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    max-width: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: calc(40px + 2vmin);
+}
+
+h2 {
+    padding-top: 10%;
+    font-size: calc(20px + 2vmin);
+    width: 80%;
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}

@@ -1,0 +1,14 @@
+.sound {
+    background-image: url("../assets/img/assets-components/soundOff.png");
+    top: 6em;
+    left: 4em;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sound:hover {
+    cursor: pointer;
+}

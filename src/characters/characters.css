@@ -1,0 +1,12 @@
+.character {
+    height: 500px;
+    padding: 10% 25% 5% 25%;
+}
+
+.character--man {
+    content: url("../assets/img/characters/man.png");
+}
+
+.character--woman {
+    content: url("../assets/img/characters/woman.png");
+}

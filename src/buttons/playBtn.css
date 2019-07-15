@@ -1,0 +1,20 @@
+.playBtn {
+    font-family: 'Neucha', cursive;
+    color: var(--brand-color);
+    background-color: #45444422;
+    
+    border: solid 1px var(--brand-color);
+    border-radius: 5px;
+    
+
+    margin: 5%;
+    
+    font-size: calc(10px + 2vmin);
+    width: 300px;
+    height: 70px;
+}
+
+.playBtn:hover {
+    background-color: transparent;
+    border: solid 2px var(--brand-color);
+}
