@@ -1,0 +1,14 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.food {
+    background-image: url("../assets/img/assets-components/items/food.png");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto auto;
+}

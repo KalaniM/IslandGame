@@ -4,6 +4,7 @@ import { Arrow } from "../buttons/arrow";
 import { PlayBtn } from "../buttons/playBtn"
 import { Article } from "../articles/article";
 import { ManCharacter, WomanCharacter } from "../characters/characters";
+import { Foods } from "../resources/resources";
 
 export class GameStart extends React.Component {
     render() {
@@ -42,7 +43,8 @@ export class DaysBackground extends React.Component {
         return (
             <main>
                 <h1>Jour 1</h1>
-                <Article />
+                <Foods />
+                {/* <Article /> */}
                 <Arrow />
             </main>
         )
